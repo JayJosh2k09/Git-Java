@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'war'
+archivesBaseName = 'JSF2Demo'
+version = '1' 
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile 'com.sun.faces:jsf-api:2.2.9'
+    compile 'com.sun.faces:jsf-impl:2.2.9'
+    compile 'jstl:jstl:1.2'
+} 
